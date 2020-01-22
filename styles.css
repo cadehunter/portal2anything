@@ -1,0 +1,198 @@
+body {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    
+}
+
+body, input {
+    font-family: "Lovelo-Black", Helvetica, Arial, sans-serif;
+}
+
+@keyframes HeaderAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.header {
+    
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #3C78FB, #44BDEA, #7A81FF, #76D6FF);
+    background-size: 800% 800%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: HeaderAnimation 25s ease infinite;
+    
+}
+
+.header h1 {
+    
+    font-family: "Lovelo-Black";
+    font-size: 575%;
+    color: white;
+    margin: 0;
+    
+    transition: opacity 0.2s ease-in-out;
+    
+}
+.header h1.expanded {
+    
+    font-size: 200%;
+    
+}
+
+.header div {
+    
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+    max-width: 700px;
+    
+    transition: top 0.4s ease-in-out, width 0.4s ease-in-out;
+    
+}
+.header div.expanded {
+    
+    top: 7vh;
+    width: 65vw;
+    
+}
+
+.header span {
+    
+    font-family: "Lovelo-LineBold";
+    
+}
+
+.header input {
+    
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 35vw;
+    max-width: 700px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+    transition: width 0.4s ease-in-out;
+    
+}
+.header input:focus {
+    
+    outline: none;
+    
+    font-size: 16px
+    color: white;
+    background-color: transparent;
+    
+}
+.header input:focus::placeholder {
+    
+    color: white;
+    
+}
+.header input.expanded {
+    
+    width: 65vw;
+    
+}
+
+
+.resultsPanel {
+    
+    color: black;
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    width: 65vw;
+    max-width: 750px;
+    min-height: 85vh;
+    height: auto;
+    position: absolute;
+    padding-bottom: 20px;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+    z-index: 100;
+    
+    transition: top 0.4s ease-in-out;
+    display: block;
+    
+}
+
+.searchResult {
+    
+    width: 350px;
+    height: 125px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    margin-left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.searchResult h1 {
+    
+    margin: 5px;
+    
+}
+
+.searchResult p {
+    
+    margin: 5px;
+    
+}
+
+.noResultsText {
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 250%;
+    text-align: center;
+    
+    margin-left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.suggestLink {
+    
+    margin-top: 0;
+    font-size: 125%;
+    text-align: center;
+    
+    margin-left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.suggestLink > a {
+    
+    text-decoration: none;
+    color: lightskyblue;
+    
+}
+.optionsIcon {
+    
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    width: 45px;
+    height: 45px;
+    transform: rotate(0);
+    transition: transform 0.2s ease;
+    
+}
+
+.optionsIcon:hover {
+    transform: rotate(45deg);
+}

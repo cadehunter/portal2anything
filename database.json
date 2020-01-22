@@ -1,0 +1,74 @@
+{
+    
+    "Amazon": {
+        "name": "Amazon",
+        "address": "https://www.amazon.com",
+        "description": "Technology company based in Seattle, Washington."
+    },
+    "Apple": {
+        "name": "Apple",
+        "address": "https://www.apple.com",
+        "description": "Technology company based in Cupertino, California."
+    },
+    "AT&T": {
+        "name": "AT&T",
+        "address": "https://www.att.com",
+        "description": "Technology company specializing in telecommunications."
+    },
+    "Facebook": {
+        "name": "Facebook",
+        "address": "https://www.facebook.com",
+        "description": "American online social media company based in Menlo Park, California."
+    },
+    "Google": {
+        "name": "Google",
+        "address": "https://www.google.com",
+        "description": "Company specializing in internet-related services."
+    },
+    "Instagram": {
+        "name": "Instagram",
+        "address": "https://www.instagram.com",
+        "description": "Photo and video-sharing social networking service owned by Facebook, Inc."
+    },
+    "Microsoft": {
+        "name": "Microsoft",
+        "address": "https://www.microsoft.com",
+        "description": "Technology company based in Redmond, Washington."
+    },
+    "Snapchat": {
+        "name": "Snapchat",
+        "address": "https://www.snapchat.com",
+        "description": "Global multimedia messaging app."
+    },
+    "Sprint": {
+        "name": "Sprint",
+        "address": "https://www.sprint.com",
+        "description": "Technology company specializing in telecommunications."
+    },
+    "T-Mobile": {
+        "name": "T-Mobile",
+        "address": "https://www.tmobile.com",
+        "description": "Brand name used by the mobile communications subsidiaries of the company Deutsche Telekom AG."
+    },
+    "Twitter": {
+        "name": "Twitter",
+        "address": "https://www.twitter.com",
+        "description": "Microblogging and social networking service."
+    },
+    "Verizon": {
+        "name": "Verizon",
+        "address": "https://www.verizon.com",
+        "description": "Technology company specializing in telecommunications."
+    },
+    "Walmart": {
+        "name": "Walmart",
+        "address": "https://www.walmart.org",
+        "description": "American retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores."
+    },
+    "Wikipedia": {
+        "name": "Wikipedia",
+        "address": "https://www.wikipedia.org",
+        "description": "Multilingual, community-maintained online encyclopedia."
+    }
+    
+}
