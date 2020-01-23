@@ -127,17 +127,18 @@ function showSearchResults(searchResults) {
 
         for (var i = 0; i < searchResults.length; i++) {
 
+            var aElement = document.createElement("div");
             var element = document.createElement("div");
             var currentResult = searchResults[keys[i]];
 
             element.classList.add("searchResult");
             (function (currentResult) {
-                element.onclick = function () {
-                    window.location = currentResult.address;
-                }
+                aElement.href = currentResult.address;
             })(currentResult)
             element.innerHTML = "<h1>" + currentResult.name + "</h1><p>" + currentResult.description + "</p>";
-            resultsPanel.appendChild(element);
+            
+            aElement.appendChild(element);
+            resultsPanel.appendChild(aElement);
 
         }
 
