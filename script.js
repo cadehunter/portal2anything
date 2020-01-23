@@ -127,7 +127,7 @@ function showSearchResults(searchResults) {
 
         for (var i = 0; i < searchResults.length; i++) {
 
-            var aElement = document.createElement("div");
+            var aElement = document.createElement("a");
             var element = document.createElement("div");
             var currentResult = searchResults[keys[i]];
 
