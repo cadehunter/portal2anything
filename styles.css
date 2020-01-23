@@ -125,6 +125,13 @@ body, input {
     
 }
 
+.resultsPanel > a {
+    
+    color: black;
+    text-decoration: none;
+    
+}
+
 .searchResult {
     
     width: 350px;
