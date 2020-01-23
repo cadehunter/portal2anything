@@ -154,8 +154,3 @@ function openOptions () {
     expandSearchResults();
     
 }
-
-window.onload = () => {
-    let banner = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
-    banner.parentNode.removeChild(banner);
-}
