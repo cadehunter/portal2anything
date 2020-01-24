@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title>Portal to Anything</title>
+    <link rel="stylesheet" href="suggest.css">
+    <link rel="stylesheet" href="fonts.css">
+
+</head>
+
+<body>
+
+   <script>
+    
+        function sendEmail() {
+            
+            var suggestedResultTitle = document.getElementById("suggestedResultTitle").value;
+            var suggestedResultInfo = document.getElementById("suggestedResultInfo").value;
+            
+            window.open("mailto:system.contact@icloud.com?subject=Portal%20To%20Anything%20Result%20Suggestion&body=Suggested%20Title:%20" + encodeURI(suggestedResultTitle) + "%0D%0AMore%20Info:%20" + encodeURI(suggestedResultInfo));
+            
+        }
+    
+    </script>
+    <div class="header">
+
+        <div>
+           
+            <h1>Suggest <span>a</span> Result</h1>
+            <input id="suggestedResultTitle" type="text" placeholder="Suggested result title">
+            <input id="suggestedResultInfo" type="text" placeholder="Any other info?">
+            <button onclick="sendEmail()">Send</button>
+            <button onclick="window.location = '/index.html'">Go Back</button>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
