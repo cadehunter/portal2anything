@@ -15,6 +15,13 @@
         "address": "https://www.att.com",
         "description": "Technology company specializing in telecommunications."
     },
+
+    "ExxonMobil": {
+        "name": "ExxonMobil",
+        "address": "https://corporate.exxonmobil.com",
+        "description": "Largest non-government owned company in the energy industry."
+    },
+
     "Facebook": {
         "name": "Facebook",
         "address": "https://www.facebook.com",
